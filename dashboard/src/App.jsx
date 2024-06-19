@@ -7,7 +7,7 @@ const App = () => {
   const [monthlyData, setMonthlyData] = useState([]);
   const [chartType, setChartType] = useState('bar');
 
-  const accessToken = "BQDj56IxCugk4Zrdq2MzEIlsuJfhEj-E3dTFk-2awuYpE0uwku1Z10ggMfZFdbkjUkPg0nsEDg1mbNxsYp4xFZmhPFh3I3RNLSp3m1ss6UO5Tbyv4i0";
+  const accessToken = "BQCXsPa2PjUniUD-VbI3HF0ch9oo6bSNp9bNxg4DFa1z4yikP2AlW_hGIIC7twAw-QobGjxL-SqIwGt6mfyXMepjvpjUWW6D7hdUPFCB_oiav3oHRq4";
 
   useEffect(() => {
     if (accessToken) {
